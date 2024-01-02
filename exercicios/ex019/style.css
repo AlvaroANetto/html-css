@@ -1,0 +1,11 @@
+main {
+    background-color: #a1896e9f;
+    margin: auto;
+    padding: 70px;
+    width: 700px;
+    border-radius: 15px;
+
+}
+body{
+    background-image: linear-gradient(to right, #597B5D, #D9CCB9);
+}

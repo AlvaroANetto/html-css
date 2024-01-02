@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            font-size: 1.5em;
+        }
+        a:hover {
+            color: lightgray;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        nav > a {
+            margin: 30px;
+        }
+        nav {
+            background-color: rgb(61, 61, 61);
+            padding: 3px;
+            box-shadow: 11px 11px 18px rgba(0, 0, 0, 0.479);
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            text-align: center;
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main {
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        article {
+            background-color: lightgray;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        #noticias > article {
+            box-shadow: 5px 10px 5px rgb(77, 76, 76);
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+    </nav>
+
+   </header>
+   <main>
+    <section id="assuntos">
+
+
+    </section>
+    <section id="noticias">
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae deserunt repudiandae quam tenetur atque esse voluptate, perspiciatis dolor exercitationem vitae est qui numquam eveniet rem nihil veniam quo consequuntur mollitia.</p>
+            <aside>
+                Escrito por Piripópó
+            </aside>
+        </article>
+
+    </section>
+   </main>
+   <footer>
+        <p>Desenvolvido pelo Alababir</p>
+   </footer>
+</body>
+</html>
