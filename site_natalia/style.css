@@ -59,6 +59,12 @@ section > p {
     padding-bottom: 2.5em;
 }
 
+section  span {
+    text-align: center;
+    padding-left: 50px;
+
+}
+
 .normal {
     background-color: white;
     color: black;
@@ -71,13 +77,13 @@ section.imagem {
 
 section#img01 {
     background-position: right center;
-    background-image: url(imagens/background001.jpg);
+    background-image: url(imagens/fundo001.jpg);
     background-size: cover;
 }
 
 section#img02 {
     background-size: cover;
-    background-image: url(imagens/background002.jpg);
+    background-image: url(imagens/fundo002.jpg);
 }
 
 section.imagem > p {
