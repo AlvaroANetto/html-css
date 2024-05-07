@@ -77,13 +77,13 @@ section.imagem {
 
 section#img01 {
     background-position: right center;
-    background-image: url(imagens/fundo001.jpg);
+    background-image: url(imagens/background001.jpg);
     background-size: cover;
 }
 
 section#img02 {
     background-size: cover;
-    background-image: url(imagens/fundo002.jpg);
+    background-image: url(imagens/background002.jpg);
 }
 
 section.imagem > p {
